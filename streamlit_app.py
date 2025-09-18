@@ -10,8 +10,7 @@ from openpyxl.utils import get_column_letter
 
 st.set_page_config(page_title="Masterfile Filler", layout="wide")
 
-st.title("🧩 Masterfile Filler")
-st.caption("Upload your raw data, the marketplace template (masterfile), and a mapping file. Click **Process & Download** to generate a filled masterfile.")
+st.markdown("<h1 style='text-align: center;'>🧩 Masterfile Filler</h1>", unsafe_allow_html=True)
 
 st.markdown("<h4 style='text-align: center; font-style: italic;'>Innovating with AI Today ⏐ Leading Automation Tomorrow</h4>", unsafe_allow_html=True)
 # ---------- Helpers ----------
